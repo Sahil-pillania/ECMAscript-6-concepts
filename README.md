@@ -7,7 +7,8 @@ ECMAScript 6 is also known as ES6 and ECMAScript 2015.
 
 This chapter describes the most important features of ES6.
 
-New Features in ES6
+
+<---New Features in ES6--->
 
 The let keyword
 
