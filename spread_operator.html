@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Ecma script  6</title>
+</head>
+
+<body>
+    <h1>Spread Operator </h1>
+    <script>
+        
+       
+    //    let otherFruits=['pineapple','guvava'];
+       let fruits=['apple','banana','kiwi'];
+    //    function PrintAll(...a) //rest
+    //    {
+    //        console.warn(a)
+    //    }
+    //    PrintAll(...fruits) //spread
+    // let allFruits=[...fruits,...otherFruits]; # to make a third object named all fruits
+    let newFruits=[...fruits]
+    newFruits.push("test")
+    console.warn(newFruits)
+    console.warn("old",fruits)
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+
+  
+<html>
+
+<head>
+    <title>Ecma script 6</title>
+</head>
+
+<body>
+    <h1>Arrow function</h1>
+    <script>
+    
+    let item={
+        name:"sahil",
+        getName:function()
+        {
+            console.warn("normal",this)
+        },
+        getNameArrow:()=>{
+            console.warn("arrow",this)
+        }
+    }
+
+
+    item.getName();
+    item.getNameArrow();
+
+        
+    </script>
+</body>
+
+</html>
